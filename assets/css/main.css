@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: transparent;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+header .container {
+  width: 90%;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+header .container .nav a {
+  color: white;
+  font-weight: bolder;
+}
+header .container .nav a span {
+  color: #D1002C;
+}
+header .container .nav .collapseDiv {
+  justify-content: flex-end;
+}
+header .container .nav .collapseDiv ul li a {
+  color: rgb(184, 184, 184);
+}
+header .container .nav .collapseDiv ul li a:hover {
+  color: #D1002C;
+  transition: 0.5s;
+}
+
+main #entrancesection {
+  width: 100%;
+  background-image: url(/assets/img/bg_1\ \(1\).jpg);
+  background-size: cover;
+  padding: 30px;
+}
+main #entrancesection .container {
+  width: 90%;
+  padding: 30px;
+}
+main #entrancesection .container .row .entrancetext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .row .entrancetext h1 {
+  color: white;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+main #entrancesection .container .row .entrancetext p {
+  margin-bottom: 30px;
+  color: rgb(224, 220, 220);
+}
+main #entrancesection .container .row .entrancetext button {
+  background-color: #D1002C;
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+main #entrancesection .container .row .numberdiv {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main #entrancesection .container .row .numberdiv .number {
+  display: flex;
+}
+main #entrancesection .container .row .numberdiv .number h1 {
+  color: white;
+}
+main #entrancesection .container .row .numberdiv .txt {
+  color: gray;
+}
+main #aboutsection {
+  width: 100%;
+}
+main #aboutsection .container {
+  width: 90%;
+}
+main #aboutsection .container .row .titlediv {
+  display: flex;
+  font-weight: bolder;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 30px;
+}
+main #aboutsection .container .cards {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #aboutsection .container .cards .card {
+  width: 30%;
+  border: none;
+  padding: 20px;
+}
+main #aboutsection .container .cards .card img {
+  max-width: 100%;
+}
+main #info {
+  width: 100%;
+}
+main #info .container {
+  width: 90%;
+  padding: 30px;
+}
+main #info .container .row .infodiv {
+  margin-bottom: 30px;
+}
+main #info .container .row .infodiv button {
+  background-color: #D1002C;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+main #info .container .row .infodiv h1 {
+  font-size: 35px;
+}
+main #info .container .row .infodiv p {
+  color: gray;
+}
+main #info .container .row .infodiv img {
+  margin-top: 10px;
+}
+main #info .container .row .numbers {
+  display: flex;
+  gap: 10px;
+}
+main #info .container .row .numbers h1 {
+  color: #D1002C;
+  font-size: 50px;
+}
+main #info .container .row .numbers .num h3 {
+  font-size: 30px;
+}
+main #info .container .row .numbers .num p {
+  color: gray;
+}
+main #kinds {
+  width: 100%;
+  padding: 30px;
+}
+main #kinds .container {
+  padding: 30x;
+  width: 90%;
+}
+main #kinds .container .row {
+  padding: 30px;
+}
+main #kinds .container .row .titlediv {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+main #kinds .container .row .aboutdiv {
+  margin-top: 30px;
+  background-color: #F3F3F3;
+  padding: 30px;
+  border-radius: 10px;
+}
+main #kinds .container .row .aboutdiv .profilediv {
+  display: flex;
+  gap: 10px;
+}
+main #kinds .container .row .aboutdiv .profilediv img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+main #kinds .container .row .aboutdiv .profilediv .text {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+}
+main #kinds .container .row .aboutdiv .profilediv .text h6 {
+  font-size: 13px;
+  font-weight: bolder;
+}
+main #apisection {
+  width: 100%;
+  padding: 30px;
+}
+main #apisection .apidiv {
+  margin-top: 30px;
+}
+main #apisection .apidiv select {
+  color: #D1002C;
+  font-weight: bolder;
+  border: 3px solid #D1002C;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: black;
+}
+main #apisection .apidiv input {
+  color: #D1002C;
+  font-weight: bolder;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+main #apisection .apidiv button {
+  color: #D1002C;
+  font-weight: bolder;
+  padding: 10px;
+  border: 3px solid #D1002C;
+}
+main #apisection .apidiv button:hover {
+  color: white;
+  font-weight: bolder;
+  background-color: #D1002C;
+  transition: 0.5s;
+}
+main #apisection .apidiv #abc {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+main #apisection .apidiv #abc .boxDiv {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+main #apisection .apidiv #abc .myDiv {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+main #apisection .apidiv #abc .sortbox {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+main #formsection {
+  width: 100%;
+  background-color: #f4f1e9;
+}
+main #formsection .container {
+  margin-top: 30px;
+  padding: 30px;
+  width: 90%;
+}
+main #formsection .container .titlediv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+main #formsection .container .titlediv p {
+  color: gray;
+}
+main #formsection .container #myform {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+main #formsection .container #myform .inputdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+main #formsection .container #myform .inputdiv input {
+  width: 100%;
+  border-radius: 0px;
+  padding: 15px;
+}
+main #formsection .container #myform .btndiv {
+  width: 50%;
+}
+main #formsection .container #myform .btndiv .textarea {
+  width: 100%;
+  border-radius: 0px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+main #formsection .container #myform .btndiv button {
+  background-color: #D1002C;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: 3px solid #D1002C;
+}
+main #formsection .container #myform .btndiv button:hover {
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+footer {
+  width: 100%;
+  background-color: #D1002C;
+}
+footer .container {
+  width: 90%;
+}
+footer .container .row .footdiv {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  main #entrancesection .container .row .numberdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  main #aboutsection .container .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #aboutsection .container .cards .card {
+    width: 100%;
+  }
+  main #aboutsection .container .cards .card img {
+    max-width: 100%;
+  }
+  main #kinds .container .row .aboutdiv .profilediv .text {
+    font-size: 9px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basketdiv {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-weight: bolder;
+  padding: 30px;
+}
+#basketdiv select {
+  color: #D1002C;
+  font-weight: bolder;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: black;
+}
+#basketdiv input {
+  color: #D1002C;
+  font-weight: bolder;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+#basketdiv button {
+  color: #D1002C;
+  font-weight: bolder;
+  padding: 10px;
+  border: 3px solid #D1002C;
+}
+#basketdiv button:hover {
+  font-weight: bolder;
+  background-color: #D1002C;
+  transition: 0.5s;
+}
+#basketdiv #abc {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#basketdiv #abc .boxDiv {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+#basketdiv #abc .myDiv {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
+#basketdiv #abc .sortbox {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+}
